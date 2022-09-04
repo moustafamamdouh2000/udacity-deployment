@@ -53,6 +53,7 @@ jobs:
           command: |
             npm run frontend:deploy
 workflows:
+  version: 2
   main:
     jobs:
       - build:
