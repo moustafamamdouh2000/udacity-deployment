@@ -1,2 +1,2 @@
-eb init $EB_APP --region $AWS_DEFAULT_REGION $EB_APP
+eb init $EB_APP --region $AWS_DEFAULT_REGION
 eb deploy $EB_ENV
