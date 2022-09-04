@@ -1,2 +1,2 @@
-eb init -r $AWS_DEFAULT_REGION $EB_APP
-eb deploy $EB_ENV
+eb init -r us-east-1 udagram
+eb deploy Udagram-env
