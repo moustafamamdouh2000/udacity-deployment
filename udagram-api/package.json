@@ -12,8 +12,8 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "deploy": "chmod +x bin/deploy.sh && cd www && pwd && ../bin/deploy.sh && pwd",
-    "build": " tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && pwd",
+    "deploy": "chmod +x bin/deploy.sh && cd www && ../bin/deploy.sh",
+    "build": " tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
