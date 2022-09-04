@@ -53,9 +53,9 @@ jobs:
           command: |
             npm run frontend:deploy
 workflows:
-  udagram:
+  main:
     jobs:
-      - build
+      - build:
           filters:
             branches:
               only: master
