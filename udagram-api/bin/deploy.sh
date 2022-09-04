@@ -1,2 +1,2 @@
-eb init -r us-east-1 udagram
+eb init 
 eb deploy Udagram-env
