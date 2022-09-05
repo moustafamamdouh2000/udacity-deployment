@@ -2,6 +2,7 @@
 - frontend: http://uniqueawsbucketnameforudagram.s3-website-us-east-1.amazonaws.com/
 - backend: http://udagram-env.eba-vx8nkcvv.us-east-1.elasticbeanstalk.com/
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/moustafamamdouh2000/udacity-deployment/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/moustafamamdouh2000/udacity-deployment/tree/master)
 
 # Hosting a Full-Stack Application
 
