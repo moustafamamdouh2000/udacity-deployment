@@ -9,8 +9,9 @@ workflows:
     jobs:
       - build:
           filters:
-            breanches:
-              only: -master
+            branches:
+              only:
+                - master
       - hold:
           filters:
             branches:
