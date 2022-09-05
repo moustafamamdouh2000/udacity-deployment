@@ -1,0 +1,9 @@
+branch-defaults:
+  default:
+    environment: Udagram-env
+    group_suffix: null
+global:
+  application_name: udagram
+  default_ec2_keyname: aws-eb
+  default_platform: Node.js 14 running on 64bit Amazon Linux 2
+  default_region: us-east-1
