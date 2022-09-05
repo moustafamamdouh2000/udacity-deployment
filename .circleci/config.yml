@@ -9,8 +9,16 @@ workflows:
     jobs:
       - build:
           filters:
-            breanches:
+            branches:
               only: -master
+      - hold:
+          filters:
+            branches:
+              only:
+                - master
+          type: approval
+          requires:
+            - build
       - deploy_backend:
           requires:
             - hold
