@@ -10,11 +10,7 @@ workflows:
       - build:
           filters:
             branches:
-<<<<<<< HEAD
               only:
-=======
-              only: 
->>>>>>> f666bcb89e11c79d0c2ae08d6552789d1960d5ad
                 - master
       - hold:
           filters:
